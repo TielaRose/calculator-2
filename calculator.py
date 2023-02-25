@@ -22,9 +22,10 @@ while True:
         print('You will exit')
         break
     else:
-        num1 = input_tokens[1]
-        num2 = input_tokens[2]
+        num1 = int(input_tokens[1])
+        num2 = int(input_tokens[2])
 
-        output = f'num1 is {num1} and num2 is {num2}'
+        if operation == '+':
+            output = float(add(num1, num2))
 
     print(output)
