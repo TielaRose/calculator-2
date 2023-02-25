@@ -28,4 +28,13 @@ while True:
         if operation == '+':
             output = float(add(num1, num2))
 
+        elif operation == '-':
+            output = float(subtract(num1, num2))
+
+        elif operation == '*':
+            output = float(multiply(num1, num2))
+
+        elif operation == '/':
+            output = float(divide(num1, num2))
+
     print(output)
